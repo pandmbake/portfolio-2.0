@@ -32,6 +32,8 @@
   padding-left: 2.3em;
 }
 
+
+
 .middle {
     background-color: rgb(75, 78, 78);
     width: 100%;
@@ -64,16 +66,10 @@
 
 } 
 
-.divider {
-  background-color: white;
-  width: 100%;
-  height: 2px;
-}
-
 .bottom {
     background-color: rgb(107, 112, 112);
     width: 100%;
-    height: 23em;
+    height: 30em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -86,21 +82,26 @@ p {
     padding: 2em;
    }
 
+
 .column-left {
-    text-align: center;
     padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 
   }
   
 .column-middle {
-    text-align: center;
-    padding-top: 2em;
+    padding: 2em;
+    display: flex;
+    align-items: center;
   
   }
   
 .column-right {
-    text-align: center;
     padding: 2em;
+    display: flex;
+    align-items: center;
   }
   
 .icon {
@@ -112,9 +113,19 @@ p {
 .canva {
     width: 3.5em;
     height: auto;
-    
+
   }
 
   .column {
     padding-top: 2em;
+  }
+
+  .projects {
+    background-color: rgb(149, 157, 157);
+    width: 100%;
+    height: 23em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
   }
