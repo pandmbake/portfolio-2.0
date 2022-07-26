@@ -5,5 +5,6 @@ var d = document.getElementById('banner-middle-add');
 
 function change() {
     b.style.display = "block";
+    x.style.width ="30em";
     
 }
