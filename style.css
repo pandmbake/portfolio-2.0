@@ -133,7 +133,7 @@ p {
   }
 
 .coding-png-middle {
-    width: 10em;
+    width: 5em;
     height: auto;
   }
 
@@ -160,13 +160,46 @@ p {
 .column {
   padding-top: 2em;
   }
+  
+  .project-examples-text {
+    color: white;
+    background-color: rgb(149, 157, 157);
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    padding: 1em;
+    
+  }
 
 .projects {
   background-color: rgb(149, 157, 157);
   width: 100%;
-  height: 23em;
+  height: 35em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   justify-content: center;
+  padding: 2em;
   }
+
+  .projects-column-left {
+    border: black solid 2px;
+    text-align: center;
+    height: 30em;
+    
+    
+  }
+
+  .ghost {
+    width: 20em;
+    height: auto;
+    text-align: center;
+  }
+
+  .ghost-buttons {
+    margin-top: 1em;
+  }
+
+  
+
+  
