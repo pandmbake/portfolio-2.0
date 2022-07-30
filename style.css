@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 .top {
@@ -159,15 +160,16 @@ p {
 
 .column {
   padding-top: 2em;
+  width: 100%
   }
   
-  .project-examples-text {
-    color: white;
-    background-color: rgb(149, 157, 157);
-    width: 100%;
-    height: 3em;
-    text-align: center;
-    padding: 1em;
+.project-examples-text {
+  color: white;
+  background-color: rgb(149, 157, 157);
+  width: 100%;
+  height: 3em;
+  text-align: center;
+  padding: 1em;
     
   }
 
@@ -178,27 +180,95 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  justify-content: center;
   padding: 2em;
+ 
   }
 
-  .projects-column-left {
+.projects-column-left {
+  border: black solid 2px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 30em;
+  justify-content:space-evenly;
+  
+  }
+ 
+.text-ghost {
+    text-align: center;
+    margin-top: -1.5em;
+
+}
+
+.ghost {
+  width: 20em;
+  height: auto;
+
+}
+
+.ghost-buttons {
+  margin-top: 1em;
+
+}
+
+.projects-column-middle {
+  border: black solid 2px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 30em;
+  justify-content:space-around;
+  
+}
+
+.text-michelle {
+    text-align: center;
+    margin-top: -1.5em;
+
+}
+
+.michelle {
+  width: 20em;
+  height: auto;
+  text-align: center;
+
+}
+
+.michelle-buttons {
+  margin-top: 1em;
+
+}
+
+.projects-column-right {
     border: black solid 2px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     height: 30em;
+    justify-content:space-around;
     
-    
-  }
+}
+  
+.text-coin {
+  text-align: center;
+  margin-top: -1.5em;
 
-  .ghost {
-    width: 20em;
-    height: auto;
-    text-align: center;
-  }
+}
+  
+.coin {
+  width: 320px;
+  height: 199.77px;
+  text-align: center;
 
-  .ghost-buttons {
-    margin-top: 1em;
-  }
+}
+  
+.coin-buttons {
+  margin-top: 1em;
+
+}  
 
   
 
