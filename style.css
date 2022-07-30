@@ -81,10 +81,9 @@ html {
 #banner-middle {
   color: white;
   font-size: 2em;
-  margin-top: 1em;
   display: none;
   opacity: 0;
-  animation: fadeIn 3s;
+  animation: fadeIn 2.5s;
   animation-fill-mode: forwards;
 
 }
@@ -93,14 +92,6 @@ html {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-
-#banner-middle-add {
-  display: none;
-  color: white;
-  font-size: 2em;
-  margin-top: 1em;
-
-} 
 
 .bottom {
     background-color: rgb(107, 112, 112);
@@ -167,9 +158,11 @@ p {
   color: white;
   background-color: rgb(149, 157, 157);
   width: 100%;
-  height: 3em;
+  height: 4em;
   text-align: center;
-  padding: 1em;
+  padding-top: 2em;
+  
+  
     
   }
 
@@ -180,18 +173,19 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  padding: 2em;
+  margin-top: -2.5em;
+  
  
   }
 
 .projects-column-left {
-  border: black solid 2px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
   height: 30em;
   justify-content:space-evenly;
+  padding-left: 1em;
   
   }
  
@@ -213,7 +207,6 @@ p {
 }
 
 .projects-column-middle {
-  border: black solid 2px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -242,13 +235,13 @@ p {
 }
 
 .projects-column-right {
-    border: black solid 2px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     height: 30em;
     justify-content:space-around;
+    padding-right: 1em;
     
 }
   

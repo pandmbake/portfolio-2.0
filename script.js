@@ -4,6 +4,4 @@ var d = document.getElementById('banner-middle-add');
 function change() {
     b.style.display = "block";
     
-    
-    
 }
