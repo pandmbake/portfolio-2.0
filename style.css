@@ -6,12 +6,10 @@
 
 html {
   scroll-behavior: smooth;
-  width: 100%;
 }
 
 .top {
     background-color: rgb(45, 47, 47);
-    width: 100%;
     height: 60em;
     cursor: url("Screenshot 2022-07-24 124659.png"), auto;
     color: white;
@@ -89,7 +87,6 @@ html {
 
 .middle {
   background-color: rgb(75, 78, 78);
-  width: 100%;
   height: 15em;
   display: flex;
   justify-content: space-evenly;
@@ -113,7 +110,6 @@ html {
 
 .bottom {
     background-color: rgb(107, 112, 112);
-    width: 100%;
     height: 30em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -175,7 +171,6 @@ p {
 .project-examples-text {
   color: black;
   background-color: rgb(149, 157, 157);
-  width: 100%;
   height: 4em;
   text-align: center;
   padding-top: 2em;
@@ -185,7 +180,6 @@ p {
 
 .projects {
   background-color: rgb(149, 157, 157);
-  width: 100%;
   height: 35em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -199,40 +193,28 @@ p {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 15em;
+  height: 30em;
   justify-content:space-evenly;
   padding-left: 1em;
-  border: solid black 3px;
-  border-radius: 5%;
   margin-left: 2em;
   
 }
 
-#projects-column-left:hover {
-  transform: scale(1.05);
-}
- 
 #text-ghost {
     text-align: center;
     margin-top: -1.5em;
-    display: none;
-    animation: fadeIn 2s;
-
-}
+    
+  }
 
 #ghost {
   width: 20em;
   height: auto;
-  display: none;
-  animation: fadeIn 2s;
-
+  
 }
 
 #ghost-buttons {
   margin-top: 1em;
-  display: none;
-  animation: fadeIn 2s;
-
+  
 }
 
 #projects-column-middle {
@@ -240,21 +222,15 @@ p {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 15em;
+  height: 30em;
   justify-content:space-around;
-  border: solid black 3px;
-  border-radius: 5%;
+ 
 }
 
-#projects-column-middle:hover {
-  transform: scale(1.05);
-}
 
 #text-michelle {
     text-align: center;
     margin-top: -1.5em;
-    display: none;
-    animation: fadeIn 2s;
 
 
 }
@@ -263,15 +239,11 @@ p {
   width: 20em;
   height: auto;
   text-align: center;
-  display: none;
-  animation: fadeIn 2s;
 
 }
 
 #michelle-buttons {
   margin-top: 1em;
-  display: none;
-  animation: fadeIn 2s;
 
 }
 
@@ -280,24 +252,16 @@ p {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 15em;
+    height: 30em;
     justify-content:space-around;
     padding-right: 1em;
-    border: solid black 3px;
-    border-radius: 5%;
     margin-right: 2em;
     
-}
-
-#projects-column-right:hover {
-  transform: scale(1.05);
 }
   
 #text-coins {
   text-align: center;
   margin-top: -1.5em;
-  display: none;
-  animation: fadeIn 2s;
 
 }
   
@@ -305,21 +269,16 @@ p {
   width: 320px;
   height: 199.77px;
   text-align: center;
-  display: none;
-  animation: fadeIn 2s;
 
 }
   
 #coin-buttons {
   margin-top: 1em;
-  display: none;
-  animation: fadeIn 2s;
 
 } 
 
 .about-header {
   background-color: rgb(199, 211, 211);
-  width: 100%;
   text-align: center;
   height: 3em;
   padding-top: 2em;
@@ -328,7 +287,6 @@ p {
 
 .about-section {
   background-color: rgb(199, 211, 211);
-  width: 100%;
   height: 25em;
   display: flex;
   align-items: center;
@@ -350,10 +308,39 @@ p {
 
 .bottom-footer-icons {
   align-items: center;
-  width: 100%;
   height: 5em;
   display: flex;
   justify-content: center;
+
+}
+
+@media screen and (max-width: 760px) {
+  .top {
+    background-color: rgb(45, 47, 47);
+    height: 40em;
+    cursor: url("Screenshot 2022-07-24 124659.png"), auto;
+    color: white;
+    display: block;
+
+}
+
+.landing-big {
+  font-size: 5em;
+  padding-top: 2.5em;
+  padding-left: 1em;
+
+}
+
+.landing-not-so-big {
+  font-size: 3em;
+  padding-left: 1.4em;
+
+}
+
+.smaller {
+  font-size: 2.5em;
+  padding-left: 2.3em;
+}
 
 }
 
